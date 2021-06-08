@@ -1,23 +1,20 @@
 {
    "someObj": {
-      "test": 10
+      "test": "1"
    },
    "children": [{
       "someObj": {
-         "test": 12,
-         "test2": 12,
-         "test3": 12,
-         "test4": 12,
-         "test5": 12,
+         "test": "1.1",
+         "Text": "Съешь ещё этих мягких французских булок, да выпей же чаю.",
          "children": null
       }
    },{
          "someObj": {
-            "test": 11
+            "test": "1.2"
          },
          "children": [{
             "someObj": {
-               "test": 12,
+               "test": "1.2.1",
                "test2": 12,
                "test3": 12,
                "test4": 12,
@@ -28,21 +25,21 @@
       },
       {
          "someObj": {
-            "test": 12
+            "test": "1.3"
          },
          "children": [{
             "someObj": {
-               "test": 13,
+               "test": "1.3.1",
                "children": null
             }
          }, {
             "someObj": {
-               "test": 14,
+               "test": "1.3.2",
                "children": null
             }
          }, {
             "someObj": {
-               "test": 15,
+               "test": "1.3.3",
                "children": null
             }
          }]
